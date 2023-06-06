@@ -1,0 +1,8 @@
+# Parse negative nums
+# Error handling
+# List functions
+# Infinite lists
+# Split into files
+# Mod only on ints
+# std read
+# rename param expression to expression

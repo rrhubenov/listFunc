@@ -1,0 +1,7 @@
+<real-number> ::= <всички валидни записи на double>
+<list-literal> ::= [ [<expression0>, <expression1>, ...] ] *
+<expression> ::= <list-literal> | <real-number> | <function-call>
+<function-name> ::= <валиден идентификатор в C++>
+<function-call> ::= <function-name>([<expression>, ...])
+<param-expression> ::= <expression> | #integer | <function-name>([<param-expression>,...])
+<function-declaration>::= <function-name> -> <param-expression>
